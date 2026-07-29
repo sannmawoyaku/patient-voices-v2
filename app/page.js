@@ -144,6 +144,9 @@ export default function Home() {
             <h1 className="text-xl font-bold tracking-wider">患者の声</h1>
           </div>
           <div className="flex items-center gap-2">
+            <Link href="/mypage" className="text-white text-sm underline hover:opacity-80">
+              マイページ
+            </Link>
             <Link href="/post" className="bg-white text-teal-600 px-4 py-2 rounded-full font-bold text-sm flex items-center gap-1 hover:bg-teal-50 transition-colors">
               <PlusCircle className="w-4 h-4" />
               体験を投稿
